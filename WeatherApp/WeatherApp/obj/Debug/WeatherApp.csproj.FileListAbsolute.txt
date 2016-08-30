@@ -53,3 +53,7 @@ D:\Projects\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
 D:\Projects\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb
 D:\Projects\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
 D:\Projects\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb
+D:\Projects\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
+D:\Projects\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb
+D:\Projects\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll.mdb
+D:\Projects\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.mdb
