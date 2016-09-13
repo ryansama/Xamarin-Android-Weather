@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WeatherApp
+﻿namespace WeatherApp
 {
     public class Weather
     {
@@ -18,13 +12,13 @@ namespace WeatherApp
 
         public Weather()
         {
-            this.Title = " ";
-            this.Temperature = " ";
-            this.Wind = " ";
-            this.Humidity = " ";
-            this.Visibility = " ";
-            this.Sunrise = " ";
-            this.Sunset = " ";
+            Title = " ";
+            Temperature = " ";
+            Wind = " ";
+            Humidity = " ";
+            Visibility = " ";
+            Sunrise = " ";
+            Sunset = " ";
         }
     }
 }

@@ -27,8 +27,8 @@ namespace WeatherApp
                 DateTime time = new DateTime(1970, 1, 1, 0, 0, 0, 0);
                 DateTime sunrise = time.AddSeconds((double)results["sys"]["sunrise"]);
                 DateTime sunset = time.AddSeconds((double)results["sys"]["sunset"]);
-                weather.Sunrise = sunrise.ToString() + " UTC";
-                weather.Sunset = sunset.ToString() + " UTC";
+                weather.Sunrise = sunrise + " UTC";
+                weather.Sunset = sunset + " UTC";
                 return weather;
             }
 

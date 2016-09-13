@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 using Android.App;
 using Android.Widget;
 using Android.OS;
 
 namespace WeatherApp.Droid
 {
-    [Activity(Label = "Android Weather App", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Weather App for karan/Projects", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -24,8 +23,6 @@ namespace WeatherApp.Droid
         {
             EditText zipCodeEntry = FindViewById<EditText>(Resource.Id.zipCodeEntry);
 
-            //Regex zipRegex = new Regex("^\\d{5}(?:[-\\s]\\d{4})?$");
-
             try
             {
                 Weather weather = await Core.GetWeather(zipCodeEntry.Text);
@@ -37,7 +34,7 @@ namespace WeatherApp.Droid
                 FindViewById<TextView>(Resource.Id.sunriseText).Text = weather.Sunrise;
                 FindViewById<TextView>(Resource.Id.sunsetText).Text = weather.Sunset;
             }
-            catch(Exception exception)
+            catch(Exception)
             {
                 AlertDialog.Builder alert = new AlertDialog.Builder(this);
                 alert.SetTitle("Invalid input");
